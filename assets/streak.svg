@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="150" height="110" viewBox="0 0 150 110">
+
+  <defs>
+    <linearGradient id="flame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFB15C"/>
+      <stop offset="100%" stop-color="#FF542E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 炎 -->
+  <path d="M75 5
+    C85 25 110 35 103 65
+    C100 88 87 99 75 99
+    C51 99 37 82 43 59
+    C47 43 61 35 59 17
+    C72 28 76 39 75 48
+    C87 36 83 20 75 5Z"
+    fill="url(#flame)"/>
+
+  <!-- 中央の数字 -->
+  <text x="75" y="76"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="37"
+        font-weight="bold"
+        fill="#FFFFFF">11</text>
+</svg>
