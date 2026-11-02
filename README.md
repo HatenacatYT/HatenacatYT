@@ -1,171 +1,263 @@
-# HatenacatYT
+<!--
+  HATENACATYT - PLAYER PROFILE
+  RIVALS-inspired GitHub Profile
+-->
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:07111f,50:102b45,100:087eaa&height=150&section=header&text=HatenacatYT&fontSize=48&fontColor=ffffff&fontAlignY=45&desc=DEVELOP%20%7C%20CREATE%20%7C%20INNOVATE&descSize=13&descAlignY=72" width="100%" />
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://www.youtube.com/@hatenacat">YouTube</a>
-  ・
-  <a href="https://hatenacatyt.github.io/">Portfolio</a>
-  ・
-  <a href="https://github.com/HatenacatYT">GitHub</a>
-</p>
+# HATENACAT
 
----
+**PLAYER PROFILE · DEVELOPER**
 
-## 👋 ABOUT ME
+<sub>DEVELOPING IDEAS INTO REALITY</sub>
 
-自分のアイデアを実際に動くアプリケーションや作品にすることを目標に、さまざまなプロジェクトを開発しています。
-
-- 💻 デスクトップアプリケーション開発
-- 🎮 Roblox関連ツール・ゲーム
-- ⛏️ Minecraft Mod開発
-- 🤖 AI・画像・動画処理
-- 🎨 UI / UX・クリエイティブ制作
+</div>
 
 ---
 
-## 🎮 RIVALS PLAYER STATUS
+<table>
+<tr>
+<td width="34%" valign="top" align="center">
 
-<p align="center">
-  <strong>HATENACAT</strong>
-</p>
+### PLAYER INFO
 
-<table align="center">
-  <tr>
-    <td align="center" width="110">
-      <img src="./assets/level.svg" width="75" height="76" alt="Level 216"/>
-    </td>
-    <td align="center" width="110">
-      <img src="./assets/streak.svg" width="75" height="76" alt="Win Streak"/>
-    </td>
-    <td align="center" width="110">
-      <img src="./assets/platinum.webp" width="75" height="76" alt="Platinum Rank"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      **LEVEL**
-    </td>
-    <td align="center">
-      **WIN STREAK**
-    </td>
-    <td align="center">
-      **PLATINUM**
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <sub>PLAYER LEVEL</sub>
-    </td>
-    <td align="center">
-      <sub>CURRENT STREAK</sub>
-    </td>
-    <td align="center">
-      <sub>CURRENT RANK</sub>
-    </td>
-  </tr>
+<img src="https://github.com/HatenacatYT.png" width="115" alt="HatenacatYT Avatar"/>
+
+**HatenacatYT**
+
+<sub>GitHub Developer</sub>
+
+<br/>
+
+**MAIN ACTIVITIES**
+
+💻 Desktop Apps
+
+🎮 Roblox Development
+
+⛏️ Minecraft Mods
+
+🤖 AI Creative Tools
+
+🎨 UI / UX Design
+
+<br/>
+
+[GitHub](https://github.com/HatenacatYT)
+
+[YouTube](https://www.youtube.com/@hatenacat)
+
+[Website](https://hatenacatyt.github.io/)
+
+</td>
+
+<td width="66%" valign="top">
+
+### PLAYER STATISTICS
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+<img src="./assets/level.svg" width="85" alt="Level 216"/>
+
+**LEVEL**
+
+<sub>PLAYER LEVEL</sub>
+
+</td>
+<td align="center" width="33%">
+
+<img src="./assets/streak.svg" width="85" alt="Win Streak"/>
+
+**WIN STREAK**
+
+<sub>CURRENT STREAK</sub>
+
+</td>
+<td align="center" width="33%">
+
+<img src="./assets/platinum.webp" width="85" alt="Platinum Rank"/>
+
+**PLATINUM**
+
+<sub>CURRENT RANK</sub>
+
+</td>
+</tr>
 </table>
 
-<p align="center">
-  <sub>RIVALS statistics are manually updated.</sub>
-</p>
+### DEVELOPMENT STATUS
+
+| CATEGORY | STATUS |
+|:---|:---|
+| Desktop Applications | Active |
+| Roblox Projects | Active |
+| Minecraft Modding | Active |
+| AI Development | Exploring |
+| UI / UX Design | Active |
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🚀 FEATURED PROJECTS
+<div align="center">
 
-### ✦ Polaris
+## FAVORITE PROJECTS
 
-**Roblox Custom Launcher**
+<sub>SELECTED DEVELOPMENT PROJECTS</sub>
 
-Robloxのゲーム起動やFastFlags管理などを目的としたカスタムランチャー。
+</div>
 
-- ゲームの直接起動
-- FastFlagsプリセット管理
-- モダンなデスクトップUI
-- 快適なゲーム起動環境
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
 
-### ✦ Halo Customizer
+### ✦ POLARIS
 
-**Minecraft Fabric Mod**
+<img src="https://img.shields.io/badge/PYTHON-PySide6-3776AB?style=flat-square&logo=python&logoColor=white"/>
+
+**ROBLOX LAUNCHER**
+
+Robloxのゲームを直接起動し、FastFlagsを管理するカスタムランチャー。
+
+- Direct Game Launch
+- FastFlags Presets
+- Modern Desktop UI
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### ✦ HALO CUSTOMIZER
+
+<img src="https://img.shields.io/badge/MINECRAFT-FABRIC-4CAF50?style=flat-square&logo=minecraft&logoColor=white"/>
+
+**MINECRAFT MOD**
 
 Minecraftのプレイヤーに表示するハローをカスタマイズするMod。
 
-- ハロープリセット
-- 自由な外観カスタマイズ
-- オリジナルの装飾デザイン
-- Minecraft Fabric 1.21.1対応
+- Halo Presets
+- Free Customization
+- Original Designs
 
-### ✦ AI Creative Tools
+</td>
+<td width="33%" align="center" valign="top">
 
-**AI-powered Applications**
+### ✦ AI CREATIVE TOOLS
 
-AI技術を活用したクリエイティブ系アプリケーションを開発。
+<img src="https://img.shields.io/badge/PYTHON-AI%20TOOLS-8A5CF6?style=flat-square&logo=python&logoColor=white"/>
 
-- AI画像処理・アップスケーリング
-- 動画エフェクト・映像処理
-- 自動字幕生成
-- モーショングラフィックス制作
+**AI APPLICATIONS**
 
----
+AIを活用した画像・動画・クリエイティブ系アプリケーション。
 
-## 🛠️ TECH STACK
+- AI Image Processing
+- Video Effects
+- Auto Subtitles
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,html,css,js,git,github,vscode" />
-</p>
-
-<p align="center">
-  <strong>Main Technologies</strong>
-</p>
-
-<p align="center">
-  Python ・ PySide6 ・ Fabric ・ Java ・ HTML ・ CSS ・ JavaScript
-</p>
+</td>
+</tr>
+</table>
 
 ---
 
-## 📊 GITHUB STATISTICS
+<div align="center">
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=HatenacatYT&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HatenacatYT&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+## EQUIPMENT & TECHNOLOGIES
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HatenacatYT&theme=tokyonight&hide_border=true" width="70%" />
-</p>
+<sub>DEVELOPMENT LOADOUT</sub>
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center">
+
+<img src="https://skillicons.dev/icons?i=python" width="42"/>
+
+**Python**
+
+</td>
+<td align="center">
+
+<img src="https://skillicons.dev/icons?i=java" width="42"/>
+
+**Java**
+
+</td>
+<td align="center">
+
+<img src="https://skillicons.dev/icons?i=html" width="42"/>
+
+**HTML**
+
+</td>
+<td align="center">
+
+<img src="https://skillicons.dev/icons?i=css" width="42"/>
+
+**CSS**
+
+</td>
+<td align="center">
+
+<img src="https://skillicons.dev/icons?i=js" width="42"/>
+
+**JavaScript**
+
+</td>
+<td align="center">
+
+<img src="https://skillicons.dev/icons?i=git" width="42"/>
+
+**Git**
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🌐 CONNECT
+<div align="center">
 
-<p align="center">
-  <a href="https://www.youtube.com/@hatenacat">
-    <img src="https://img.shields.io/badge/YouTube-Hatenacat-red?style=for-the-badge&logo=youtube&logoColor=white" />
-  </a>
-  <a href="https://hatenacatyt.github.io/">
-    <img src="https://img.shields.io/badge/Portfolio-Website-0A8FCA?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  </a>
-  <a href="https://github.com/HatenacatYT">
-    <img src="https://img.shields.io/badge/GitHub-HatenacatYT-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
+## GITHUB RECORDS
+
+<sub>DEVELOPMENT ACTIVITY</sub>
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=HatenacatYT&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&count_private=true" width="75%"/>
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HatenacatYT&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" width="60%"/>
+
+</div>
 
 ---
 
-## 🎯 MY GOAL
+<div align="center">
 
-アイデアを形にし、実際に使えるソフトウェアや作品を作り続けること。
+## CONNECT
 
-技術を学びながら、開発・デザイン・クリエイティブの幅を広げていきます。
+<a href="https://www.youtube.com/@hatenacat">
+<img src="https://img.shields.io/badge/YOUTUBE-HATENACAT-FF3333?style=for-the-badge&logo=youtube&logoColor=white"/>
+</a>
 
-<p align="center">
-  <strong>DEVELOP. CREATE. IMPROVE.</strong>
-</p>
+<a href="https://hatenacatyt.github.io/">
+<img src="https://img.shields.io/badge/PORTFOLIO-WEBSITE-16BCE8?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:087eaa,50:102b45,100:07111f&height=80&section=footer" width="100%" />
-</p>
+<a href="https://github.com/HatenacatYT">
+<img src="https://img.shields.io/badge/GITHUB-HATENACATYT-333333?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+**DEVELOP · CREATE · INNOVATE**
+
+<sub>THANKS FOR VISITING MY PROFILE</sub>
+
+</div>
