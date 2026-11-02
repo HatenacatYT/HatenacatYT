@@ -1,5 +1,5 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="75" viewBox="0 0 120 75">
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="76" viewBox="23 0 74 75">
   <defs>
     <linearGradient id="blueStar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#70eaff"/>
@@ -46,6 +46,7 @@
     paint-order="stroke"
   >216</text>
 
+  <!-- Level label -->
   <text
     x="60"
     y="69"
