@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 500 200">
+
+  <defs>
+    <!-- 刃のメタルグラデーション -->
+    <linearGradient id="bladeGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="30%" stop-color="#E0E6ED" />
+      <stop offset="65%" stop-color="#9AA6B2" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+
+    <!-- 柄（持ち手）のグラデーション -->
+    <linearGradient id="handleGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+
+    <!-- 鞘（さや）のグラデーション -->
+    <linearGradient id="scabbardGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#881337" />
+      <stop offset="70%" stop-color="#4C0519" />
+      <stop offset="100%" stop-color="#1E020A" />
+    </linearGradient>
+
+    <!-- 金具（鍔・目釘など）のグラデーション -->
+    <linearGradient id="goldGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="50%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#854D0E" />
+    </linearGradient>
+
+    <!-- 影ドロップシャドウ -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+      <feOffset dx="3" dy="6" result="offsetblur" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <!-- 1. 刀身（刃） -->
+    <!-- 緩やかなカーブを描く日本刀の刃 -->
+    <path d="M 120 78
+             C 220 73, 330 60, 440 25
+             C 410 40, 310 75, 120 90
+             Z" fill="url(#bladeGradient)" stroke="#94A3B8" stroke-width="1.5" />
+
+    <!-- 刃文（はもん - 刃の波模様） -->
+    <path d="M 140 85
+             Q 170 80, 200 82 T 260 75 T 320 65 T 380 48 T 435 27
+             C 405 40, 305 73, 140 88 Z" fill="#FFFFFF" opacity="0.45" />
+
+    <!-- 2. 鍔（つば - 手を守るパーツ） -->
+    <ellipse cx="120" cy="84" rx="8" ry="22" fill="url(#goldGradient)" stroke="#713F12" stroke-width="1.5" transform="rotate(-5, 120, 84)" />
+
+    <!-- 3. 柄（つか - 持ち手） -->
+    <path d="M 113 74
+             L 20 62
+             C 10 60, 5 70, 10 80
+             L 111 94
+             Z" fill="url(#handleGradient)" stroke="#1E293B" stroke-width="2" />
+
+    <!-- 柄の巻き紐模様（菱形デザイン） -->
+    <path d="M 30 65 L 40 78 L 30 89
+             M 50 67 L 60 80 L 50 91
+             M 70 70 L 80 83 L 70 93
+             M 90 72 L 100 85 L 90 95" stroke="url(#goldGradient)" stroke-width="2.5" fill="none" stroke-linecap="round" />
+
+    <!-- 柄頭（つかしら - 持ち手の末端金具） -->
+    <path d="M 20 62 C 10 60, 5 70, 10 80 L 15 81 L 22 64 Z" fill="url(#goldGradient)" />
+
+    <!-- 4. 鞘（さや） -->
+    <!-- 刀の右側に配置した鞘 -->
+    <path d="M 230 110
+             C 310 102, 390 85, 470 45
+             C 475 42, 485 50, 475 58
+             C 390 100, 300 120, 225 124
+             Z" fill="url(#scabbardGradient)" stroke="#2E0612" stroke-width="2" />
+
+    <!-- 鞘口（さやくち - 金具） -->
+    <path d="M 225 109 L 235 108 L 230 123 L 220 124 Z" fill="url(#goldGradient)" />
+  </g>
+
+</svg>
