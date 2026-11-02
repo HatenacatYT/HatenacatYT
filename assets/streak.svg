@@ -1,128 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="75"
-     height="76"
-     viewBox="65 0 270 360">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 600 360">
 
   <defs>
+    <!-- 炎のグラデーション -->
     <linearGradient id="flameGradient" x1="0" y1="0" x2="0.15" y2="1">
-      <stop offset="0%" stop-color="#FF9800"/>
-      <stop offset="38%" stop-color="#FF741F"/>
-      <stop offset="70%" stop-color="#FF422C"/>
-      <stop offset="100%" stop-color="#E90020"/>
+      <stop offset="0%" stop-color="#FF9800" />
+      <stop offset="38%" stop-color="#FF741F" />
+      <stop offset="70%" stop-color="#FF422C" />
+      <stop offset="100%" stop-color="#E90020" />
     </linearGradient>
 
     <linearGradient id="flameHighlight" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFD05A" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#FF6A20" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FFD05A" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FF6A20" stop-opacity="0" />
     </linearGradient>
 
-    <filter id="numberShadow"
-            x="-30%" y="-30%"
-            width="160%" height="170%">
-      <feGaussianBlur in="SourceAlpha"
-                      stdDeviation="3"
-                      result="blur"/>
-      <feOffset in="blur"
-                dx="2" dy="5"
-                result="offset"/>
-      <feComponentTransfer in="offset"
-                           result="shadow">
-        <feFuncA type="linear" slope="0.4"/>
+    <!-- 立体感のある影 -->
+    <filter id="numberShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur" />
+      <feOffset in="blur" dx="4" dy="8" result="offset" />
+      <feComponentTransfer in="offset" result="shadow">
+        <feFuncA type="linear" slope="0.45" />
       </feComponentTransfer>
       <feMerge>
-        <feMergeNode in="shadow"/>
-        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="shadow" />
+        <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
   </defs>
 
-  <!-- Flame -->
-  <path
-    d="
-      M132 342
-      C104 321 82 293 72 258
-      C59 216 69 181 94 151
-      C117 122 147 96 163 62
-      C176 34 177 12 180 0
-      C205 32 226 66 211 101
-      C202 124 181 143 181 166
-      C180 189 194 207 218 205
-      C248 202 255 176 246 143
-      C242 128 242 112 247 104
-      C276 124 301 148 322 180
-      C348 221 338 269 309 306
-      C294 325 275 339 253 352
-      C261 323 263 294 251 272
-      C237 294 224 314 203 336
-      C180 361 147 357 132 342 Z"
-    fill="url(#flameGradient)"/>
+  <!-- 炎（背景） -->
+  <g transform="translate(100, 0)">
+    <path d="
+        M132 342
+        C104 321 82 293 72 258
+        C59 216 69 181 94 151
+        C117 122 147 96 163 62
+        C176 34 177 12 180 0
+        C205 32 226 66 211 101
+        C202 124 181 143 181 166
+        C180 189 194 207 218 205
+        C248 202 255 176 246 143
+        C242 128 242 112 247 104
+        C276 124 301 148 322 180
+        C348 221 338 269 309 306
+        C294 325 275 339 253 352
+        C261 323 263 294 251 272
+        C237 294 224 314 203 336
+        C180 361 147 357 132 342 Z" fill="url(#flameGradient)" />
 
-  <!-- Highlight -->
-  <path
-    d="
-      M132 342
-      C104 321 82 293 72 258
-      C59 216 69 181 94 151
-      C117 122 147 96 163 62
-      C153 113 124 157 113 197
-      C100 241 113 293 132 342 Z"
-    fill="url(#flameHighlight)"/>
+    <path d="
+        M132 342
+        C104 321 82 293 72 258
+        C59 216 69 181 94 151
+        C117 122 147 96 163 62
+        C153 113 124 157 113 197
+        C100 241 113 293 132 342 Z" fill="url(#flameHighlight)" />
+  </g>
 
-  <!-- Editable streak number -->
-  <text
-    id="streak-number"
-    x="208"
-    y="278"
-    text-anchor="middle"
-    font-family="Arial Black, Arial, sans-serif"
-    font-size="188"
-    font-weight="900"
-    letter-spacing="-4"
-    fill="#FFFFFF"
-    stroke="#E84B30"
-    stroke-width="7"
-    stroke-linejoin="round"
-    paint-order="stroke fill"
-    filter="url(#numberShadow)"
-  >27</text>
-
-  <!-- Automatic digit sizing -->
-  <script type="application/ecmascript"><![CDATA[
-    (() => {
-      const number = document.getElementById("streak-number");
-
-      function adjustNumber() {
-        const length = number.textContent.trim().length;
-
-        let size;
-
-        if (length <= 1) {
-          size = 145;
-        } else if (length === 2) {
-          size = 120;
-        } else if (length === 3) {
-          size = 95;
-        } else {
-          size = 75;
-        }
-
-        number.setAttribute("font-size", size);
-        number.setAttribute(
-          "letter-spacing",
-          length >= 3 ? "-5" : "-4"
-        );
-      }
-
-      adjustNumber();
-
-      const observer = new MutationObserver(adjustNumber);
-
-      observer.observe(number, {
-        childList: true,
-        characterData: true,
-        subtree: true
-      });
-    })();
-  ]]></script>
+  <!-- 白文字を限界まで太くしたダイナミックな数字テキスト -->
+  <text id="streak-number" x="300" y="265" text-anchor="middle" font-family="&#39;Arial Black&#39;, Impact, sans-serif" font-size="190" font-weight="900" letter-spacing="-10" fill="#FFFFFF" stroke="#E82C10" stroke-width="8" stroke-linejoin="round" filter="url(#numberShadow)">2,000</text>
 
 </svg>
