@@ -25,7 +25,7 @@
 
 ## 👤 ABOUT ME
 
-こんにちは、Hatenacatです。
+こんにちは、Hatenacatです！
 
 ソフトウェア開発、ゲーム関連ツール、Minecraft Mod、AI技術などに興味があります。
 
@@ -53,15 +53,25 @@
       <br>
       <sub>PLAYER LEVEL</sub>
     </td>
+
     <td align="center" width="33%">
-      <img src="./assets/streak.svg" width="110" alt="11 Win Streak">
+      <img
+        src="./assets/streak.svg?v=3"
+        width="120"
+        alt="11 Win Streak"
+      />
       <br>
       <strong>STREAK</strong>
       <br>
-      <sub>CURRENT STREAK</sub>
+      <sub>CURRENT WIN STREAK</sub>
     </td>
+
     <td align="center" width="33%">
-      <img src="./assets/platinum.webp" width="85" alt="Platinum Rank">
+      <img
+        src="./assets/platinum.webp?v=3"
+        width="85"
+        alt="Platinum Rank"
+      />
       <br>
       <strong>PLATINUM</strong>
       <br>
@@ -86,6 +96,7 @@ Robloxのゲーム起動やFastFlags管理などを目的としたカスタム�
 - ゲームの直接起動
 - FastFlagsプリセット管理
 - モダンなデスクトップUI
+- 快適なゲーム起動環境
 
 ### ✦ Halo Customizer
 **Minecraft Fabric Mod**
@@ -105,6 +116,7 @@ AI技術を活用したクリエイティブ系デスクトップアプリケー
 - 画像処理
 - 音声・字幕処理
 - モーショングラフィックス
+- 画像生成・加工関連ツール
 
 ---
 
@@ -128,12 +140,21 @@ AI技術を活用したクリエイティブ系デスクトップアプリケー
 ## 📊 GITHUB STATISTICS
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HatenacatYT&show_icons=true&theme=tokyonight&hide_border=true" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HatenacatYT&layout=compact&theme=tokyonight&hide_border=true" width="49%" />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=HatenacatYT&show_icons=true&theme=tokyonight&hide_border=true"
+    width="49%"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=HatenacatYT&layout=compact&theme=tokyonight&hide_border=true"
+    width="49%"
+  />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HatenacatYT&theme=tokyonight&hide_border=true" width="90%" />
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=HatenacatYT&theme=tokyonight&hide_border=true"
+    width="90%"
+  />
 </p>
 
 ---
@@ -148,7 +169,7 @@ AI技術を活用したクリエイティブ系デスクトップアプリケー
 
 <p align="center">
   <a href="https://hatenacatyt.github.io/">
-    <img src="https://img.shields.io/badge/Personal%20Website-公式サイト-00BFFF?style=for-the-badge&logo=googlechrome&logoColor=white" />
+    <img src="https://img.shields.io/badge/Personal_Website-公式サイト-00BFFF?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>
 </p>
 
