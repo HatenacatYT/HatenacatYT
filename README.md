@@ -1,11 +1,10 @@
-# HATENACAT
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:080D18,50:102B48,100:00CFFF&height=200&section=header&text=HATENACAT&fontSize=55&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=DEVELOPER%20%7C%20CREATOR&descAlignY=58&descSize=18" width="100%" />
 </p>
 
+<h3 align="center">アイデアを、カタチに。</h3>
+
 <p align="center">
-  <strong>アイデアを、カタチに。</strong><br>
   ソフトウェア開発・ゲーム・クリエイティブを中心に活動しています。
 </p>
 
@@ -45,28 +44,28 @@
   <strong>HATENACAT</strong>
 </p>
 
-<table align="center" width="100%">
+<table width="100%">
   <tr>
-    <td align="center" width="33%">
+    <td width="33%" align="center" valign="middle">
       <h1>216</h1>
       <strong>LEVEL</strong>
-      <br>
+      <br/>
       <sub>PLAYER LEVEL</sub>
     </td>
 
-    <td align="center" width="33%">
-      <img src="./assets/streak.svg?v=4" width="120" alt="Win Streak">
-      <br>
+    <td width="33%" align="center" valign="middle">
+      <img src="./assets/streak.svg" width="120" alt="11 Win Streak"/>
+      <br/>
       <strong>WIN STREAK</strong>
-      <br>
+      <br/>
       <sub>CURRENT STREAK</sub>
     </td>
 
-    <td align="center" width="33%">
-      <img src="./assets/platinum.webp?v=4" width="85" alt="Platinum">
-      <br>
+    <td width="33%" align="center" valign="middle">
+      <img src="./assets/platinum.webp" width="85" alt="Platinum Rank"/>
+      <br/>
       <strong>PLATINUM</strong>
-      <br>
+      <br/>
       <sub>CURRENT RANK</sub>
     </td>
   </tr>
@@ -81,6 +80,7 @@
 ## 🚀 FEATURED PROJECTS
 
 ### ✦ Polaris
+
 **Roblox Custom Launcher**
 
 Robloxのゲーム起動やFastFlags管理などを目的としたカスタムランチャー。
@@ -91,6 +91,7 @@ Robloxのゲーム起動やFastFlags管理などを目的としたカスタム�
 - 快適なゲーム起動環境
 
 ### ✦ Halo Customizer
+
 **Minecraft Fabric Mod**
 
 Minecraftのプレイヤーに表示するハローをカスタマイズするMod。
@@ -100,6 +101,7 @@ Minecraftのプレイヤーに表示するハローをカスタマイズするMo
 - オリジナルの装飾デザイン
 
 ### ✦ AI Creative Tools
+
 **AI-powered Applications**
 
 AI技術を活用したクリエイティブ系デスクトップアプリケーションの開発。
