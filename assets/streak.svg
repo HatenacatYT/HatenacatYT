@@ -58,6 +58,7 @@
   </g>
 
   <!-- 数字テキスト -->
-  <text id="streak-number" x="300" y="265" text-anchor="middle" font-family="&#39;Arial Black&#39;, Impact, sans-serif" font-size="190" font-weight="900" letter-spacing="-10" fill="#FFFFFF" stroke="#E82C10" stroke-width="8" stroke-linejoin="round" filter="url(#numberShadow)">2,000</text>
+  <text id="streak-number" x="300" y="265" text-anchor="middle" font-family="&#39;Arial Black&#39;, Impact, sans-serif" font-size="190" font-weight="900" letter-spacing="-10" fill="#FFFFFF" stroke="#E82C10" stroke-width="8" stroke-linejoin="round" filter="url(#numberShadow)">
+    2,000</text>
 
 </svg>
