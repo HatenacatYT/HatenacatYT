@@ -44,38 +44,26 @@
   <strong>HATENACAT</strong>
 </p>
 
-<table width="100%">
-  <tr>
-    <td width="33%" align="center" valign="middle">
-      <h1>216</h1>
-      <strong>LEVEL</strong>
-      <br/>
-      <sub>PLAYER LEVEL</sub>
-    </td>
-
-    <td width="33%" align="center" valign="middle">
-      <img src="./assets/streak.svg" width="120" alt="11 Win Streak"/>
-      <br/>
-      <strong>WIN STREAK</strong>
-      <br/>
-      <sub>CURRENT STREAK</sub>
-    </td>
-
-    <td width="33%" align="center" valign="middle">
-      <img src="./assets/platinum.webp" width="85" alt="Platinum Rank"/>
-      <br/>
-      <strong>PLATINUM</strong>
-      <br/>
-      <sub>CURRENT RANK</sub>
-    </td>
-  </tr>
-</table>
-
 <p align="center">
-  <sub>RIVALS PLAYER STATISTICS · MANUALLY UPDATED</sub>
+  <img src="./assets/level.svg" width="110" alt="Level 216">
+  &nbsp;&nbsp;&nbsp;
+  <img src="./assets/streak.svg" width="110" alt="11 Win Streak">
+  &nbsp;&nbsp;&nbsp;
+  <img src="./assets/platinum.webp" width="85" alt="Platinum Rank">
 </p>
 
----
+<p align="center">
+  <strong>LEVEL 216</strong>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <strong>WIN STREAK</strong>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <strong>PLATINUM</strong>
+</p>
+
+<p align="center">
+  <sub>PLAYER LEVEL　 ·　 CURRENT STREAK　 ·　 CURRENT RANK</sub>
+</p>
+ｰｰｰ
 
 ## 🚀 FEATURED PROJECTS
 
