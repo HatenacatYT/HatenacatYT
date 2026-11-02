@@ -1,28 +1,116 @@
+
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="150" height="110" viewBox="0 0 150 110">
+     width="360"
+     height="360"
+     viewBox="0 0 360 360">
 
   <defs>
-    <linearGradient id="flame" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFB15C"/>
-      <stop offset="100%" stop-color="#FF542E"/>
+    <!-- 炎のメインカラー -->
+    <linearGradient id="flameGradient"
+                    x1="0" y1="0"
+                    x2="0.15" y2="1">
+      <stop offset="0%" stop-color="#FF9800"/>
+      <stop offset="38%" stop-color="#FF741F"/>
+      <stop offset="70%" stop-color="#FF422C"/>
+      <stop offset="100%" stop-color="#E90020"/>
     </linearGradient>
+
+    <!-- 炎のハイライト -->
+    <linearGradient id="flameHighlight"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD05A" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FF6A20" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- 数字の立体感 -->
+    <filter id="numberShadow"
+            x="-30%" y="-30%"
+            width="160%" height="170%">
+      <feGaussianBlur in="SourceAlpha"
+                      stdDeviation="3"
+                      result="blur"/>
+      <feOffset in="blur"
+                dx="2" dy="5"
+                result="offset"/>
+      <feComponentTransfer in="offset"
+                           result="shadow">
+        <feFuncA type="linear"
+                 slope="0.4"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
-  <!-- 炎 -->
-  <path d="M75 5
-    C85 25 110 35 103 65
-    C100 88 87 99 75 99
-    C51 99 37 82 43 59
-    C47 43 61 35 59 17
-    C72 28 76 39 75 48
-    C87 36 83 20 75 5Z"
-    fill="url(#flame)"/>
+  <!-- 炎本体 -->
+  <path
+    d="
+      M 132 342
 
-  <!-- 中央の数字 -->
-  <text x="75" y="76"
-        text-anchor="middle"
-        font-family="Arial, sans-serif"
-        font-size="37"
-        font-weight="bold"
-        fill="#FFFFFF">11</text>
+      C 104 321, 82 293, 72 258
+      C 59 216, 69 181, 94 151
+
+      C 117 122, 147 96, 163 62
+      C 176 34, 177 12, 180 0
+
+      C 205 32, 226 66, 211 101
+      C 202 124, 181 143, 181 166
+
+      C 180 189, 194 207, 218 205
+
+      C 248 202, 255 176, 246 143
+      C 242 128, 242 112, 247 104
+
+      C 276 124, 301 148, 322 180
+
+      C 348 221, 338 269, 309 306
+
+      C 294 325, 275 339, 253 352
+
+      C 261 323, 263 294, 251 272
+
+      C 237 294, 224 314, 203 336
+
+      C 180 361, 147 357, 132 342
+
+      Z
+    "
+    fill="url(#flameGradient)"/>
+
+  <!-- 左側の炎の光 -->
+  <path
+    d="
+      M 132 342
+      C 104 321, 82 293, 72 258
+      C 59 216, 69 181, 94 151
+      C 117 122, 147 96, 163 62
+      C 153 113, 124 157, 113 197
+      C 100 241, 113 293, 132 342
+      Z
+    "
+    fill="url(#flameHighlight)"/>
+
+  <!-- 数字の縁取りと影 -->
+  <text
+    id="streak-number"
+    x="180"
+    y="278"
+    text-anchor="middle"
+    font-family="Arial Black, Arial, sans-serif"
+    font-size="145"
+    font-weight="900"
+    letter-spacing="-7"
+    fill="#FFFFFF"
+    stroke="#E84B30"
+    stroke-width="7"
+    stroke-linejoin="round"
+    paint-order="stroke fill"
+    filter="url(#numberShadow)"
+    textLength="285"
+    lengthAdjust="spacingAndGlyphs"
+  >114514</text>
+
 </svg>
