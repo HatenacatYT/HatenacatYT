@@ -1,4 +1,3 @@
-
 <svg xmlns="http://www.w3.org/2000/svg"
      width="75"
      height="76"
@@ -72,7 +71,7 @@
   <!-- Editable streak number -->
   <text
     id="streak-number"
-    x="200"
+    x="208"
     y="278"
     text-anchor="middle"
     font-family="Arial Black, Arial, sans-serif"
@@ -116,7 +115,6 @@
 
       adjustNumber();
 
-      // Re-adjust when the number is edited
       const observer = new MutationObserver(adjustNumber);
 
       observer.observe(number, {
