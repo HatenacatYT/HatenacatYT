@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="128"
+     height="128"
+     viewBox="0 0 128 128">
+
+  <defs>
+    <linearGradient id="moonGradient"
+                    x1="35" y1="15"
+                    x2="110" y2="105"
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A5F3FC"/>
+      <stop offset="45%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+
+    <linearGradient id="orbitGradient"
+                    x1="15" y1="100"
+                    x2="110" y2="20"
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="55%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#E879F9"/>
+    </linearGradient>
+
+    <linearGradient id="starGradient"
+                    x1="15" y1="20"
+                    x2="45" y2="60"
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF1A8"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Orbital arcs -->
+  <g fill="none"
+     stroke="url(#orbitGradient)"
+     stroke-width="2"
+     stroke-linecap="round">
+
+    <path d="M18 75 A55 55 0 0 1 103 22"
+          opacity="0.9"/>
+
+    <path d="M27 91 A55 55 0 0 0 105 105"
+          opacity="0.65"/>
+
+  </g>
+
+  <!-- Crescent moon -->
+  <path
+    d="M82 12
+       A52 52 0 1 0 116 98
+       C100 112 83 115 66 105
+       C38 89 30 57 45 32
+       C54 18 68 12 82 12 Z"
+    fill="url(#moonGradient)"/>
+
+  <!-- Main golden sparkle -->
+  <path
+    d="M27 27 L31 39 L43 43 L31 47 L27 59
+       L23 47 L11 43 L23 39 Z"
+    fill="url(#starGradient)"/>
+
+  <!-- Pink sparkle -->
+  <path
+    d="M103 15 L106 23 L114 26 L106 29
+       L103 37 L100 29 L92 26 L100 23 Z"
+    fill="#F0ABFC"/>
+
+  <!-- Blue sparkle -->
+  <path
+    d="M108 73 L110 79 L116 81 L110 83
+       L108 89 L106 83 L100 81 L106 79 Z"
+    fill="#67E8F9"/>
+
+  <!-- Floating particles -->
+  <g>
+    <circle cx="15" cy="72" r="2" fill="#F0ABFC"/>
+    <circle cx="91" cy="10" r="2" fill="#FBBF24"/>
+    <circle cx="119" cy="49" r="1.8" fill="#38BDF8"/>
+    <circle cx="39" cy="108" r="2" fill="#A78BFA"/>
+    <circle cx="82" cy="119" r="1.5" fill="#F9A8D4"/>
+  </g>
+
+</svg>
