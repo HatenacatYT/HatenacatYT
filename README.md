@@ -53,7 +53,7 @@
 </p>
 
 <p align="center">
-  <strong>LEVEL 216</strong>
+  <strong>LEVEL</strong>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <strong>WIN STREAK</strong>
   &nbsp;&nbsp;&nbsp;&nbsp;
