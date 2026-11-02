@@ -55,23 +55,15 @@
     </td>
 
     <td align="center" width="33%">
-      <img
-        src="./assets/streak.svg?v=3"
-        width="120"
-        alt="11 Win Streak"
-      />
+      <img src="./assets/streak.svg?v=4" width="120" alt="Win Streak">
       <br>
-      <strong>STREAK</strong>
+      <strong>WIN STREAK</strong>
       <br>
-      <sub>CURRENT WIN STREAK</sub>
+      <sub>CURRENT STREAK</sub>
     </td>
 
     <td align="center" width="33%">
-      <img
-        src="./assets/platinum.webp?v=3"
-        width="85"
-        alt="Platinum Rank"
-      />
+      <img src="./assets/platinum.webp?v=4" width="85" alt="Platinum">
       <br>
       <strong>PLATINUM</strong>
       <br>
