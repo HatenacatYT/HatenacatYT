@@ -1,36 +1,24 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:080D18,50:102B48,100:00CFFF&height=200&section=header&text=HATENACAT&fontSize=55&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=DEVELOPER%20%7C%20CREATOR&descAlignY=58&descSize=18" width="100%" />
-</p>
-
-<h3 align="center">アイデアを、カタチに。</h3>
+# HatenacatYT
 
 <p align="center">
-  ソフトウェア開発・ゲーム・クリエイティブを中心に活動しています。
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:07111f,50:102b45,100:087eaa&height=150&section=header&text=HatenacatYT&fontSize=48&fontColor=ffffff&fontAlignY=45&desc=DEVELOP%20%7C%20CREATE%20%7C%20INNOVATE&descSize=13&descAlignY=72" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://www.youtube.com/@hatenacat">
-    <img src="https://img.shields.io/badge/YOUTUBE-FF0033?style=for-the-badge&logo=youtube&logoColor=white" />
-  </a>
-  <a href="https://hatenacatyt.github.io/">
-    <img src="https://img.shields.io/badge/WEBSITE-00BFFF?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  </a>
-  <a href="https://github.com/HatenacatYT">
-    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
+  <a href="https://www.youtube.com/@hatenacat">YouTube</a>
+  ・
+  <a href="https://hatenacatyt.github.io/">Portfolio</a>
+  ・
+  <a href="https://github.com/HatenacatYT">GitHub</a>
 </p>
 
 ---
 
-## 👤 ABOUT ME
-
-こんにちは、Hatenacatです！
-
-ソフトウェア開発、ゲーム関連ツール、Minecraft Mod、AI技術などに興味があります。
+## 👋 ABOUT ME
 
 自分のアイデアを実際に動くアプリケーションや作品にすることを目標に、さまざまなプロジェクトを開発しています。
 
-- 🖥️ デスクトップアプリケーション開発
+- 💻 デスクトップアプリケーション開発
 - 🎮 Roblox関連ツール・ゲーム
 - ⛏️ Minecraft Mod開発
 - 🤖 AI・画像・動画処理
@@ -44,26 +32,47 @@
   <strong>HATENACAT</strong>
 </p>
 
-<p align="center">
-  <img src="./assets/level.svg" width="110" alt="Level 216">
-  &nbsp;&nbsp;&nbsp;
-  <img src="./assets/streak.svg" width="110" alt="11 Win Streak">
-  &nbsp;&nbsp;&nbsp;
-  <img src="./assets/platinum.webp" width="85" alt="Platinum Rank">
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="110">
+      <img src="./assets/level.svg" width="75" height="76" alt="Level 216"/>
+    </td>
+    <td align="center" width="110">
+      <img src="./assets/streak.svg" width="75" height="76" alt="Win Streak"/>
+    </td>
+    <td align="center" width="110">
+      <img src="./assets/platinum.webp" width="75" height="76" alt="Platinum Rank"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      **LEVEL**
+    </td>
+    <td align="center">
+      **WIN STREAK**
+    </td>
+    <td align="center">
+      **PLATINUM**
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <sub>PLAYER LEVEL</sub>
+    </td>
+    <td align="center">
+      <sub>CURRENT STREAK</sub>
+    </td>
+    <td align="center">
+      <sub>CURRENT RANK</sub>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <strong>LEVEL</strong>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <strong>WIN STREAK</strong>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <strong>PLATINUM</strong>
+  <sub>RIVALS statistics are manually updated.</sub>
 </p>
 
-<p align="center">
-  <sub>PLAYER LEVEL　 ·　 CURRENT STREAK　 ·　 CURRENT RANK</sub>
-</p>
-ｰｰｰ
+---
 
 ## 🚀 FEATURED PROJECTS
 
@@ -87,77 +96,61 @@ Minecraftのプレイヤーに表示するハローをカスタマイズするMo
 - ハロープリセット
 - 自由な外観カスタマイズ
 - オリジナルの装飾デザイン
+- Minecraft Fabric 1.21.1対応
 
 ### ✦ AI Creative Tools
 
 **AI-powered Applications**
 
-AI技術を活用したクリエイティブ系デスクトップアプリケーションの開発。
+AI技術を活用したクリエイティブ系アプリケーションを開発。
 
-- 動画処理
-- 画像処理
-- 音声・字幕処理
-- モーショングラフィックス
-- 画像生成・加工関連ツール
+- AI画像処理・アップスケーリング
+- 動画エフェクト・映像処理
+- 自動字幕生成
+- モーショングラフィックス制作
 
 ---
 
-## 💻 TECH STACK
+## 🛠️ TECH STACK
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,html,css,js,git,github,vscode&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,java,html,css,js,git,github,vscode" />
 </p>
 
-| 分野 | 技術 |
-|:---|:---|
-| プログラミング | Python / Java / JavaScript |
-| GUI開発 | PySide6 |
-| Web開発 | HTML / CSS / JavaScript |
-| Minecraft | Fabric / Gradle |
-| 開発環境 | VS Code / GitHub |
-| AI・画像処理 | Python関連ライブラリ |
+<p align="center">
+  <strong>Main Technologies</strong>
+</p>
+
+<p align="center">
+  Python ・ PySide6 ・ Fabric ・ Java ・ HTML ・ CSS ・ JavaScript
+</p>
 
 ---
 
 ## 📊 GITHUB STATISTICS
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=HatenacatYT&show_icons=true&theme=tokyonight&hide_border=true"
-    width="49%"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=HatenacatYT&layout=compact&theme=tokyonight&hide_border=true"
-    width="49%"
-  />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=HatenacatYT&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HatenacatYT&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com/?user=HatenacatYT&theme=tokyonight&hide_border=true"
-    width="90%"
-  />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HatenacatYT&theme=tokyonight&hide_border=true" width="70%" />
 </p>
 
 ---
 
-## 🌐 CONNECT WITH ME
+## 🌐 CONNECT
 
 <p align="center">
   <a href="https://www.youtube.com/@hatenacat">
-    <img src="https://img.shields.io/badge/YouTube-チャンネルを見る-FF0033?style=for-the-badge&logo=youtube&logoColor=white" />
+    <img src="https://img.shields.io/badge/YouTube-Hatenacat-red?style=for-the-badge&logo=youtube&logoColor=white" />
   </a>
-</p>
-
-<p align="center">
   <a href="https://hatenacatyt.github.io/">
-    <img src="https://img.shields.io/badge/Personal_Website-公式サイト-00BFFF?style=for-the-badge&logo=googlechrome&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portfolio-Website-0A8FCA?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>
-</p>
-
-<p align="center">
   <a href="https://github.com/HatenacatYT">
-    <img src="https://img.shields.io/badge/GitHub-プロフィール-181717?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-HatenacatYT-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
@@ -165,14 +158,14 @@ AI技術を活用したクリエイティブ系デスクトップアプリケー
 
 ## 🎯 MY GOAL
 
-新しい技術を学び、アイデアを形にし、より良い作品を作り続ける。
+アイデアを形にし、実際に使えるソフトウェアや作品を作り続けること。
 
-これからもさまざまなプロジェクトに挑戦していきます。
+技術を学びながら、開発・デザイン・クリエイティブの幅を広げていきます。
 
 <p align="center">
-  <strong>Thanks for visiting!</strong>
+  <strong>DEVELOP. CREATE. IMPROVE.</strong>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00CFFF,50:102B48,100:080D18&height=120&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:087eaa,50:102b45,100:07111f&height=80&section=footer" width="100%" />
 </p>
