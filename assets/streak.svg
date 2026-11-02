@@ -17,10 +17,17 @@
       <stop offset="100%" stop-color="#FF6A20" stop-opacity="0"/>
     </linearGradient>
 
-    <filter id="numberShadow" x="-30%" y="-30%" width="160%" height="170%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
-      <feOffset in="blur" dx="2" dy="5" result="offset"/>
-      <feComponentTransfer in="offset" result="shadow">
+    <filter id="numberShadow"
+            x="-30%" y="-30%"
+            width="160%" height="170%">
+      <feGaussianBlur in="SourceAlpha"
+                      stdDeviation="3"
+                      result="blur"/>
+      <feOffset in="blur"
+                dx="2" dy="5"
+                result="offset"/>
+      <feComponentTransfer in="offset"
+                           result="shadow">
         <feFuncA type="linear" slope="0.4"/>
       </feComponentTransfer>
       <feMerge>
@@ -71,15 +78,53 @@
     font-family="Arial Black, Arial, sans-serif"
     font-size="145"
     font-weight="900"
-    letter-spacing="-7"
+    letter-spacing="-4"
     fill="#FFFFFF"
     stroke="#E84B30"
     stroke-width="7"
     stroke-linejoin="round"
     paint-order="stroke fill"
     filter="url(#numberShadow)"
-    textLength="220"
-    lengthAdjust="spacingAndGlyphs"
   >5</text>
+
+  <!-- Automatic digit sizing -->
+  <script type="application/ecmascript"><![CDATA[
+    (() => {
+      const number = document.getElementById("streak-number");
+
+      function adjustNumber() {
+        const length = number.textContent.trim().length;
+
+        let size;
+
+        if (length <= 1) {
+          size = 145;
+        } else if (length === 2) {
+          size = 120;
+        } else if (length === 3) {
+          size = 95;
+        } else {
+          size = 75;
+        }
+
+        number.setAttribute("font-size", size);
+        number.setAttribute(
+          "letter-spacing",
+          length >= 3 ? "-5" : "-4"
+        );
+      }
+
+      adjustNumber();
+
+      // Re-adjust when the number is edited
+      const observer = new MutationObserver(adjustNumber);
+
+      observer.observe(number, {
+        childList: true,
+        characterData: true,
+        subtree: true
+      });
+    })();
+  ]]></script>
 
 </svg>
