@@ -85,7 +85,7 @@
     stroke-linejoin="round"
     paint-order="stroke fill"
     filter="url(#numberShadow)"
-  >5</text>
+  >27</text>
 
   <!-- Automatic digit sizing -->
   <script type="application/ecmascript"><![CDATA[
