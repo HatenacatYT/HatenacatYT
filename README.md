@@ -1,101 +1,79 @@
-<!--
-  HATENACATYT - PLAYER PROFILE
-  RIVALS-inspired GitHub Profile
--->
+<!-- HATENACATYT | RIVALS INSPIRED PLAYER PROFILE -->
 
 <div align="center">
 
 # HATENACAT
 
-**PLAYER PROFILE · DEVELOPER**
+**PLAYER PROFILE**
 
-<sub>DEVELOPING IDEAS INTO REALITY</sub>
+<sub>DEVELOPER · CREATOR · BUILDER</sub>
+
+<br/>
+
+<sub>「アイデアを形にする。」</sub>
 
 </div>
 
 ---
 
+## 🏆 PLAYER STATISTICS
+
 <table>
 <tr>
-<td width="34%" valign="top" align="center">
-
-### PLAYER INFO
-
-<img src="https://github.com/HatenacatYT.png" width="115" alt="HatenacatYT Avatar"/>
-
-**HatenacatYT**
-
-<sub>GitHub Developer</sub>
-
+<td align="center" width="33%">
+<img src="./assets/level.svg" width="95" alt="Level 216"/>
 <br/>
+<strong>LEVEL</strong>
+<br/>
+<sub>PLAYER LEVEL</sub>
+</td>
+<td align="center" width="33%">
+<img src="./assets/streak.svg" width="95" alt="Win Streak"/>
+<br/>
+<strong>WIN STREAK</strong>
+<br/>
+<sub>CURRENT STREAK</sub>
+</td>
+<td align="center" width="33%">
+<img src="./assets/platinum.webp" width="95" alt="Platinum Rank"/>
+<br/>
+<strong>PLATINUM</strong>
+<br/>
+<sub>CURRENT RANK</sub>
+</td>
+</tr>
+</table>
+
+<p align="center">
+<sub>RIVALS PLAYER DATA · MANUALLY UPDATED</sub>
+</p>
+
+---
+
+## 👤 PLAYER PROFILE
+
+<table>
+<tr>
+<td width="25%" align="center">
+<img src="https://github.com/HatenacatYT.png" width="120" alt="Hatenacat Avatar"/>
+<br/><br/>
+<strong>HATENACAT</strong>
+<br/>
+<sub>GitHub Developer</sub>
+</td>
+<td width="75%" valign="middle">
+
+**ABOUT PLAYER**
+
+自分のアイデアを実際に動くアプリケーションや作品にすることを目標に、さまざまなプロジェクトを開発しています。
 
 **MAIN ACTIVITIES**
 
-💻 Desktop Apps
-
-🎮 Roblox Development
-
-⛏️ Minecraft Mods
-
-🤖 AI Creative Tools
-
-🎨 UI / UX Design
-
-<br/>
-
-[GitHub](https://github.com/HatenacatYT)
-
-[YouTube](https://www.youtube.com/@hatenacat)
-
-[Website](https://hatenacatyt.github.io/)
-
-</td>
-
-<td width="66%" valign="top">
-
-### PLAYER STATISTICS
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-<img src="./assets/level.svg" width="85" alt="Level 216"/>
-
-**LEVEL**
-
-<sub>PLAYER LEVEL</sub>
-
-</td>
-<td align="center" width="33%">
-
-<img src="./assets/streak.svg" width="85" alt="Win Streak"/>
-
-**WIN STREAK**
-
-<sub>CURRENT STREAK</sub>
-
-</td>
-<td align="center" width="33%">
-
-<img src="./assets/platinum.webp" width="85" alt="Platinum Rank"/>
-
-**PLATINUM**
-
-<sub>CURRENT RANK</sub>
-
-</td>
-</tr>
-</table>
-
-### DEVELOPMENT STATUS
-
-| CATEGORY | STATUS |
-|:---|:---|
-| Desktop Applications | Active |
-| Roblox Projects | Active |
-| Minecraft Modding | Active |
-| AI Development | Exploring |
-| UI / UX Design | Active |
+- 💻 Desktop Application Development
+- 🎮 Roblox Development
+- ⛏️ Minecraft Modding
+- 🤖 AI & Image Processing
+- 🎨 UI / UX & Creative Design
 
 </td>
 </tr>
@@ -103,13 +81,9 @@
 
 ---
 
-<div align="center">
-
-## FAVORITE PROJECTS
+## ⭐ FAVORITE PROJECTS
 
 <sub>SELECTED DEVELOPMENT PROJECTS</sub>
-
-</div>
 
 <table>
 <tr>
@@ -117,45 +91,60 @@
 
 ### ✦ POLARIS
 
-<img src="https://img.shields.io/badge/PYTHON-PySide6-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/PySide6-41CD52?style=flat-square&logo=qt&logoColor=white"/>
 
 **ROBLOX LAUNCHER**
 
-Robloxのゲームを直接起動し、FastFlagsを管理するカスタムランチャー。
+Robloxのゲーム起動とFastFlags管理を目的としたカスタムランチャー。
 
-- Direct Game Launch
-- FastFlags Presets
-- Modern Desktop UI
+---
+
+<sub>DIRECT GAME LAUNCH</sub>
+
+<sub>FASTFLAGS PRESETS</sub>
+
+<sub>MODERN DESKTOP UI</sub>
 
 </td>
 <td width="33%" align="center" valign="top">
 
 ### ✦ HALO CUSTOMIZER
 
-<img src="https://img.shields.io/badge/MINECRAFT-FABRIC-4CAF50?style=flat-square&logo=minecraft&logoColor=white"/>
+<img src="https://img.shields.io/badge/JAVA-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/FABRIC-4CAF50?style=flat-square&logoColor=white"/>
 
 **MINECRAFT MOD**
 
-Minecraftのプレイヤーに表示するハローをカスタマイズするMod。
+Minecraftのプレイヤーに表示するハローをカスタマイズするFabric Mod。
 
-- Halo Presets
-- Free Customization
-- Original Designs
+---
+
+<sub>HALO PRESETS</sub>
+
+<sub>FREE CUSTOMIZATION</sub>
+
+<sub>ORIGINAL DESIGNS</sub>
 
 </td>
 <td width="33%" align="center" valign="top">
 
 ### ✦ AI CREATIVE TOOLS
 
-<img src="https://img.shields.io/badge/PYTHON-AI%20TOOLS-8A5CF6?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/AI-8A5CF6?style=flat-square"/>
 
 **AI APPLICATIONS**
 
 AIを活用した画像・動画・クリエイティブ系アプリケーション。
 
-- AI Image Processing
-- Video Effects
-- Auto Subtitles
+---
+
+<sub>AI IMAGE PROCESSING</sub>
+
+<sub>VIDEO EFFECTS</sub>
+
+<sub>AUTO SUBTITLES</sub>
 
 </td>
 </tr>
@@ -163,56 +152,104 @@ AIを活用した画像・動画・クリエイティブ系アプリケーショ
 
 ---
 
-<div align="center">
+## 🎒 DEVELOPMENT LOADOUT
 
-## EQUIPMENT & TECHNOLOGIES
+<sub>EQUIPPED TECHNOLOGIES</sub>
 
-<sub>DEVELOPMENT LOADOUT</sub>
-
-</div>
-
-<table align="center">
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=python" width="45"/>
+<br/>
+<strong>Python</strong>
+</td>
+<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=java" width="45"/>
+<br/>
+<strong>Java</strong>
+</td>
+<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=html" width="45"/>
+<br/>
+<strong>HTML</strong>
+</td>
+<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=css" width="45"/>
+<br/>
+<strong>CSS</strong>
+</td>
+</tr>
 <tr>
 <td align="center">
-
-<img src="https://skillicons.dev/icons?i=python" width="42"/>
-
-**Python**
-
+<img src="https://skillicons.dev/icons?i=javascript" width="45"/>
+<br/>
+<strong>JavaScript</strong>
 </td>
 <td align="center">
-
-<img src="https://skillicons.dev/icons?i=java" width="42"/>
-
-**Java**
-
+<img src="https://skillicons.dev/icons?i=git" width="45"/>
+<br/>
+<strong>Git</strong>
 </td>
 <td align="center">
-
-<img src="https://skillicons.dev/icons?i=html" width="42"/>
-
-**HTML**
-
+<img src="https://skillicons.dev/icons?i=github" width="45"/>
+<br/>
+<strong>GitHub</strong>
 </td>
 <td align="center">
+<img src="https://skillicons.dev/icons?i=vscode" width="45"/>
+<br/>
+<strong>VS Code</strong>
+</td>
+</tr>
+</table>
 
-<img src="https://skillicons.dev/icons?i=css" width="42"/>
+---
 
-**CSS**
+## 📊 PLAYER RECORDS
+
+<sub>GITHUB DEVELOPMENT ACTIVITY</sub>
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=HatenacatYT&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="95%" alt="GitHub Statistics"/>
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HatenacatYT&layout=compact&theme=tokyonight&hide_border=true" width="75%" alt="Most Used Languages"/>
+
+</div>
+
+---
+
+## 🌐 SOCIAL LINKS
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+**YOUTUBE**
+
+<a href="https://www.youtube.com/@hatenacat">
+<img src="https://img.shields.io/badge/OPEN_CHANNEL-FF3333?style=for-the-badge&logo=youtube&logoColor=white"/>
+</a>
 
 </td>
-<td align="center">
+<td align="center" width="33%">
 
-<img src="https://skillicons.dev/icons?i=js" width="42"/>
+**PORTFOLIO**
 
-**JavaScript**
+<a href="https://hatenacatyt.github.io/">
+<img src="https://img.shields.io/badge/OPEN_WEBSITE-168FCB?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
 
 </td>
-<td align="center">
+<td align="center" width="33%">
 
-<img src="https://skillicons.dev/icons?i=git" width="42"/>
+**GITHUB**
 
-**Git**
+<a href="https://github.com/HatenacatYT">
+<img src="https://img.shields.io/badge/VIEW_PROFILE-333333?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
 </td>
 </tr>
@@ -222,42 +259,10 @@ AIを活用した画像・動画・クリエイティブ系アプリケーショ
 
 <div align="center">
 
-## GITHUB RECORDS
+**HATENACAT · PLAYER PROFILE**
 
-<sub>DEVELOPMENT ACTIVITY</sub>
+<sub>DEVELOP · CREATE · INNOVATE</sub>
 
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=HatenacatYT&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&count_private=true" width="75%"/>
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HatenacatYT&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" width="60%"/>
-
-</div>
-
----
-
-<div align="center">
-
-## CONNECT
-
-<a href="https://www.youtube.com/@hatenacat">
-<img src="https://img.shields.io/badge/YOUTUBE-HATENACAT-FF3333?style=for-the-badge&logo=youtube&logoColor=white"/>
-</a>
-
-<a href="https://hatenacatyt.github.io/">
-<img src="https://img.shields.io/badge/PORTFOLIO-WEBSITE-16BCE8?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-</a>
-
-<a href="https://github.com/HatenacatYT">
-<img src="https://img.shields.io/badge/GITHUB-HATENACATYT-333333?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<br/><br/>
-
-**DEVELOP · CREATE · INNOVATE**
-
-<sub>THANKS FOR VISITING MY PROFILE</sub>
+<sub>THANKS FOR VISITING!</sub>
 
 </div>
